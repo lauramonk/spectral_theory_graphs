@@ -1,2 +1,3 @@
 import SpectralTheoryGraphs.Example
+import SpectralTheoryGraphs.Laplacian
 import SpectralTheoryGraphs.Steklov
