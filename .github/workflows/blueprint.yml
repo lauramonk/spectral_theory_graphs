@@ -47,6 +47,13 @@ jobs:
           lint: false
           mk_all-check: true
 
+      - name: Generate upstream dashboard snippets
+        uses: leanprover-community/upstreaming-dashboard-action@cdeaeff56d9531a75a19e8b9106def00c588c688
+        with:
+          website-directory: home_page
+          project-name: SpectralTheoryGraphs
+
+
       - name: Compile blueprint and documentation
         uses: leanprover-community/docgen-action@deed0cdc44dd8e5de07a300773eb751d33e32fc8 # 2025-10-26
         with:
